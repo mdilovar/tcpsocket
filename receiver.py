@@ -5,6 +5,7 @@ from random import randint
 
 TCP_IP = '127.0.0.1'
 TCP_PORT = 11000
+
 PACKET_SIZE = 20
 
 N  = 8 # window size
@@ -41,19 +42,19 @@ print 'Connection address:', addr
 conn.settimeout(.1)
 
 
-def isErrorFree(data):
+def isErrorFree(Sn):
     # randomly declares a packet as having an error
     noErr = random.choice([False, False, False, True, True, True])
     if noErr:
         # print 'packet has no error: %s' % data
         pass
     else:
-        print 'Packet is corrupted: %s' % data
+        print 'Packet with SN %s is corrupted.' % Sn
 
     return noErr
 
 def processPacket(packet):
-    global message, packets_per_current_msg, msglen
+    global message, packets_per_current_msg
     print 'Accepted packet: ', packet
     payload = re.match(pck_rgx, data).group(2)
     message += payload
@@ -62,9 +63,9 @@ def processPacket(packet):
 
     if re.match(msg_rgx, message):
         body = re.match(msg_rgx, message).group(1)
-        msglen = len(body)
+        msglen = len(message)
         rec_msg_log_file.write(message+'\n')
-        print 'Receved message of length %s in %s packets. Content (excluding headers): %s' % (msglen, packets_per_current_msg, body)
+        print 'Receved message of length %s in %s packets. Content: %s' % (msglen, packets_per_current_msg, body)
         message = ''
         packets_per_current_msg = 0
     elif re.match(garb_msg_rgx, message) or re.match(msg_strt_err_rgx, message):
@@ -80,16 +81,18 @@ while True:
 
     if re.match(pck_rgx, data):
         # when a whole packet has arrived, examine it
-        if int(re.match(pck_rgx, data).group(1)) != Cn % N:
+        Sn = int(re.match(pck_rgx, data).group(1))
+        print 'Packet with SN %s arrived - %s' % (Sn, data)
+        if Sn != Cn % N:
             # if the packet has the wrong sequence number
             #  refuse the packet - ignore it
-            got = int(re.match(pck_rgx, data).group(1))
+            got = Sn
             expected = Cn % N
-            # print 'debug: sn %s not expected. Expected sn: %s' % (got, expected)
+            print 'Packet with SN %s ignored. Waiting for packet with with SN: %s' % (got, expected)
         else:
-            if not isErrorFree(data):
+            if not isErrorFree(Sn):
                 # Send a NACK
-                NackN = int(re.match(pck_rgx, data).group(1))
+                NackN = Sn
                 print 'Sending NACK for packet with SN: ', NackN
                 nack = '<n%s>' % NackN
                 conn.send(nack)
@@ -99,7 +102,7 @@ while True:
                 processPacket(data)
                 if Cn - Ln == N - 1:
                     #Send an ACK every Nth packet successfully received
-                    AckN = int(re.match(pck_rgx, data).group(1))
+                    AckN = Sn
                     print 'Sending ACK for packet with SN: ', AckN
                     ack = '<a%s>' % AckN
                     conn.send(ack)
