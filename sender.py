@@ -147,4 +147,3 @@ while True:
     except Exception, e:
         # to avoid blocking, conn will throw exception after a timeout
         pass
-
