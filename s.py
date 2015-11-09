@@ -3,47 +3,49 @@
 import socket, time, random, string, re, textwrap
 from random import randint
 
-
 TCP_IP = '127.0.0.1'
 TCP_PORT = 11000
 PACKET_SIZE = 20
-PACKET_HEADER_SIZE = 5
-WINDOW_SIZE = 8
-
 
 N  = 8 # window size
-Rn = 0 # request number
-Sn = 0 # sequence number
-Sb = 0 # sequence base
-Sm = 0 # sequence max
+Cn = 0 # current window needle
 Ln = 0 # last sequence number requested
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind((TCP_IP, TCP_PORT))
-s.listen(10)
+data = '' # current packet buffer
+message = '' # current message buffer
+packets_per_current_msg = 0
+# received messages are saved to this file
+rec_msg_log_file = open("rec_msg_log_file.txt", "wb")
 
 # packet pattern
 pck_rgx = '<sn(\d)>([\d\w/]{%s})' % (PACKET_SIZE)
 
-# message header pattern
-msg_hdr_rgx = '\/mlen(\d{2})\/'
+# message pattern
+msg_rgx = '/start/([\d\w]+)/end/'
 
+# garbled message header pattern
+garb_msg_rgx = '(/start/([\d\w]+)/start/)|(/end/([\d\w]+)/end/)'
+# message beginning error
+msg_strt_err_rgx = '(^(?!/start/)(.+)$)'
+
+# create a socket and start listening to port
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.bind((TCP_IP, TCP_PORT))
+s.listen(10)
+
+# wait for client to connect
 conn, addr = s.accept()
 print 'Connection address:', addr
 
+# set timeout for conn to avoid blocking
 conn.settimeout(.1)
 
-data = ''
-message = ''
-msglen = 0
-messages = []
-packets_per_current_msg = 0
 
-def errFree(data):
+def isErrorFree(data):
     # randomly declares a packet as having an error
-    noErr = random.choice([True, True, True, True, True, False])
+    noErr = random.choice([False, False, False, True, True, True])
     if noErr:
-        #print 'packet has no error: %s' % data
+        # print 'packet has no error: %s' % data
         pass
     else:
         print 'Packet is corrupted: %s' % data
@@ -51,80 +53,64 @@ def errFree(data):
     return noErr
 
 def processPacket(packet):
-    global messages, message, packets_per_current_msg, msglen
+    global message, packets_per_current_msg, msglen
     print 'Accepted packet: ', packet
     payload = re.match(pck_rgx, data).group(2)
     message += payload
     packets_per_current_msg += 1
-    print 'debug: packets_per_current_msg ', packets_per_current_msg
+    # print 'debug: packets_per_current_msg ', packets_per_current_msg
 
-    if re.match(msg_hdr_rgx, message):
-        # if a message header is found, read message length
-        msglen = int(re.match(msg_hdr_rgx, message).group(1))
-        # then remove the header to start buffering the body
-        mheader = re.match(msg_hdr_rgx, message).group(0)
-        message = message.replace( mheader, '')
-        #packets_per_current_msg -= 1
-
-    if msglen > 0 and len(message) >= msglen:
-        # if the buffer reaches message size give in the header,
-        # reset buffer and save the message
-        #message = message.replace('/eof/', '')
-        tobeappended = message[:msglen]
-        messages.append(tobeappended)
-        print 'Receved message of length %s in %s packets. Content (excluding headers): %s' % (msglen, packets_per_current_msg, tobeappended)
-        message = message[msglen:]
+    if re.match(msg_rgx, message):
+        body = re.match(msg_rgx, message).group(1)
+        msglen = len(body)
+        rec_msg_log_file.write(message+'\n')
+        print 'Receved message of length %s in %s packets. Content (excluding headers): %s' % (msglen, packets_per_current_msg, body)
+        message = ''
         packets_per_current_msg = 0
+    elif re.match(garb_msg_rgx, message) or re.match(msg_strt_err_rgx, message):
+        raise Exception ('ERROR: garbled MESSAGE was received: ', message)
 
     # print 'debug: message so far: ', message
 
-
-def ignorePacket(packet):
-    #print 'ignored packet: ', packet
-    pass
-
-
-
 while True:
-    # Do the following forever:
+    # Repeat forever:
 
-    #print 'debug: buffer: ', data
+    # print 'debug: buffer: ', data
     #time.sleep(0.2)
 
     if re.match(pck_rgx, data):
-        # when a whle packet has arrived, examine it
-        if int(re.match(pck_rgx, data).group(1)) != Rn % N:
-            # if the packet has the sequence number
+        # when a whole packet has arrived, examine it
+        if int(re.match(pck_rgx, data).group(1)) != Cn % N:
+            # if the packet has the wrong sequence number
             #  refuse the packet - ignore it
-            # print 'debug: sn not expected. Expected sn: ', Rn % N
-            ignorePacket(data)
+            got = int(re.match(pck_rgx, data).group(1))
+            expected = Cn % N
+            # print 'debug: sn %s not expected. Expected sn: %s' % (got, expected)
         else:
-            if not errFree(data):
-                # if the packet has error ignore it
-                ignorePacket(data)
-                #Send a Request for Rn
-                print 'Asking the sender for packet with SN: ', Rn % N
-                req = '<rn%s>' % (Rn % N)
-                conn.send(req)
+            if not isErrorFree(data):
+                # Send a NACK
+                NackN = int(re.match(pck_rgx, data).group(1))
+                print 'Sending NACK for packet with SN: ', NackN
+                nack = '<n%s>' % NackN
+                conn.send(nack)
             else:
-                # If the packet received Sn == Rn and the packet is error free
-                #Accept the packet and send it to a higher layer
+                # If the packet has the right SN and is error free
+                # Accept the packet and process it
                 processPacket(data)
-                Rn = Rn + 1
-                if Rn - Ln == N:
-                    #Send a Request for Rn
-                    print 'Asking the sender for packet with SN: ', Rn % N
-                    req = '<rn%s>' % (Rn % N)
-                    conn.send(req)
-                    Ln = Rn
+                if Cn - Ln == N - 1:
+                    #Send an ACK every Nth packet successfully received
+                    AckN = int(re.match(pck_rgx, data).group(1))
+                    print 'Sending ACK for packet with SN: ', AckN
+                    ack = '<a%s>' % AckN
+                    conn.send(ack)
+                    Ln = Cn
+                Cn += 1
 
-        # reset the data buffer after examining the whole packets
+        # reset the data buffer after examining the whole packet
         data = ''
 
     try:
         data += conn.recv(1)
-        # time.sleep(0.4)
-        # print 'received so far: ', data
     except Exception, e:
-        # print 'debug: norec %s ' % e
+        # to avoid blocking, conn will throw exception after a timeout
         pass
