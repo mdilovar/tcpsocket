@@ -1,12 +1,6 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python
 
-import socket
-import time
-import random
-import string
-import re
-import textwrap
+import socket, time, random, string, re, textwrap
 from random import randint
 
 TCP_IP = '127.0.0.1'
@@ -48,7 +42,7 @@ def getPacket(Sn):
     # print 'debug: while current max sn is sm: : ', Sm
     # print 'debug: current packets len: ', len(PACKETS)
     while len(PACKETS_BUFFER) < N:
-        # generate message and pack it
+        # generate a message and pack it
         msg = getMessage()
         new_packets = textwrap.wrap(msg, PACKET_SIZE)
         print 'Message is broken into %s packet(s)' % len(new_packets)
@@ -66,7 +60,7 @@ def getPacket(Sn):
     for packet in PACKETS:
         Sn_rgx = '^<sn(%s)>' % Sn
         if re.match(Sn_rgx, packet):
-            # print 'Sending packet # %s - %s' % (Sn,packet)
+            print 'Sending packet # %s - %s' % (Sn, packet)
             return packet
     raise Exception('Packet with sequence number %s not found in %s' % (Sn, PACKETS))
 
@@ -95,7 +89,8 @@ def getMessage():
                   for _ in range(msg_size))
     # append headers to msg - /start/message/end/
     msg = '/start/%s/end/' % msg
-    print 'Message is ready. Size (including headers): %s \nContent: %s' % (len(msg), msg)
+    print 'Message is ready. Size: %s' % len(msg)
+    # print 'Content: %s' % msg
     msg_log_file.write(msg+'\n')
     return msg
 
@@ -110,7 +105,7 @@ while True:
     if re.match(ack_rgx, response):
         # If you receive an ACK
         AckN = int(re.match(ack_rgx, response).group(1))
-        print 'Receiver ACKed packet with SN: ', AckN
+        print 'Receiver ACKed packet with SN: %s.' % AckN
 
         Sm = (Sm + AckN + 1 - Sb) % N
         Sb = (AckN + 1) % N
@@ -122,7 +117,7 @@ while True:
     elif re.match(nack_rgx, response):
         # If you receive an NACK
         NackN = int(re.match(nack_rgx, response).group(1))
-        print 'Receiver NACKed packet with SN: ', NackN
+        print 'Receiver NACKed packet with SN %s.' % NackN
 
         if NackN != Sb:
             # ignore the nack if it's for the packet
@@ -140,8 +135,8 @@ while True:
 
     if needle < N:
         # transmit packets of window in order - Sb <= Sn <= Sm
-        # mimic delay
-        time.sleep(1)
+        # mimic propagation delay
+        time.sleep(2)
 
         s.send(getPacket(Sn))
         Sn = (Sn + 1) % N
@@ -152,3 +147,4 @@ while True:
     except Exception, e:
         # to avoid blocking, conn will throw exception after a timeout
         pass
+
