@@ -58,6 +58,14 @@ def processPacket(packet):
     packets_per_current_msg += 1
     print 'debug: packets_per_current_msg ', packets_per_current_msg
 
+    if re.match(msg_hdr_rgx, message):
+        # if a message header is found, read message length
+        msglen = int(re.match(msg_hdr_rgx, message).group(1))
+        # then remove the header to start buffering the body
+        mheader = re.match(msg_hdr_rgx, message).group(0)
+        message = message.replace( mheader, '')
+        #packets_per_current_msg -= 1
+
     if msglen > 0 and len(message) >= msglen:
         # if the buffer reaches message size give in the header,
         # reset buffer and save the message
@@ -67,14 +75,6 @@ def processPacket(packet):
         print 'Receved message of length %s in %s packets. Content (excluding headers): %s' % (msglen, packets_per_current_msg, tobeappended)
         message = message[msglen:]
         packets_per_current_msg = 0
-
-    if re.match(msg_hdr_rgx, message):
-        # if a message header is found, read message length
-        msglen = int(re.match(msg_hdr_rgx, message).group(1))
-        # then remove the header to start buffering the body
-        mheader = re.match(msg_hdr_rgx, message).group(0)
-        message = message.replace( mheader, '')
-        #packets_per_current_msg -= 1
 
     # print 'debug: message so far: ', message
 
