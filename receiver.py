@@ -44,7 +44,7 @@ conn.settimeout(.1)
 
 def isErrorFree(Sn):
     # randomly declares a packet as having an error
-    noErr = random.choice([False, False, False, True, True, True])
+    noErr = random.choice([False, True, True, True, True, True])
     if noErr:
         # print 'packet has no error: %s' % data
         pass
@@ -65,7 +65,7 @@ def processPacket(packet):
         body = re.match(msg_rgx, message).group(1)
         msglen = len(message)
         rec_msg_log_file.write(message+'\n')
-        print 'Receved message of length %s in %s packets.' % (msglen, packets_per_current_msg)
+        print 'Receved message of length %s in %s packet(s).' % (msglen, packets_per_current_msg)
         # print 'Content: %s' % message
         message = ''
         packets_per_current_msg = 0
