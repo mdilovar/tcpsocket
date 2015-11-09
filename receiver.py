@@ -65,7 +65,8 @@ def processPacket(packet):
         body = re.match(msg_rgx, message).group(1)
         msglen = len(message)
         rec_msg_log_file.write(message+'\n')
-        print 'Receved message of length %s in %s packets. Content: %s' % (msglen, packets_per_current_msg, body)
+        print 'Receved message of length %s in %s packets.' % (msglen, packets_per_current_msg)
+        # print 'Content: %s' % message
         message = ''
         packets_per_current_msg = 0
     elif re.match(garb_msg_rgx, message) or re.match(msg_strt_err_rgx, message):
