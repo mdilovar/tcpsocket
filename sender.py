@@ -136,7 +136,7 @@ while True:
     if needle < N:
         # transmit packets of window in order - Sb <= Sn <= Sm
         # mimic propagation delay
-        time.sleep(2)
+        time.sleep(.02)
 
         s.send(getPacket(Sn))
         Sn = (Sn + 1) % N
