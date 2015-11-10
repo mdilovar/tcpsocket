@@ -1,0 +1,195 @@
+Connection address: ('127.0.0.1', 49140)
+Packet with SN 0 arrived - <sn0>/start/CBTXRTLC/end/
+Accepted packet:  <sn0>/start/CBTXRTLC/end/
+Receved message of length 20 in 1 packet(s).
+Packet with SN 1 arrived - <sn1>/start/CMEACZ3X/end/
+Accepted packet:  <sn1>/start/CMEACZ3X/end/
+Receved message of length 20 in 1 packet(s).
+Packet with SN 2 arrived - <sn2>/start/1NZKZUL4HF7JZ
+Accepted packet:  <sn2>/start/1NZKZUL4HF7JZ
+Packet with SN 3 arrived - <sn3>331OU0WV4OKD1SRSV8WH
+Accepted packet:  <sn3>331OU0WV4OKD1SRSV8WH
+Packet with SN 4 arrived - <sn4>8EI9MQ7K4R1KKCRDSS0U
+Accepted packet:  <sn4>8EI9MQ7K4R1KKCRDSS0U
+Packet with SN 5 arrived - <sn5>VW4P1V8AELZ6GOYSK1YS
+Accepted packet:  <sn5>VW4P1V8AELZ6GOYSK1YS
+Packet with SN 6 arrived - <sn6>GA1EB0A7S6Y8CHX/end/
+Accepted packet:  <sn6>GA1EB0A7S6Y8CHX/end/
+Receved message of length 100 in 5 packet(s).
+Packet with SN 7 arrived - <sn7>/start/B1VVGB1K/end/
+Accepted packet:  <sn7>/start/B1VVGB1K/end/
+Receved message of length 20 in 1 packet(s).
+Sending ACK for packet with SN:  7
+Packet with SN 0 arrived - <sn0>/start/QPDL437AF832V
+Accepted packet:  <sn0>/start/QPDL437AF832V
+Packet with SN 1 arrived - <sn1>ZWM8FOKNONLJBI1/end/
+Packet with SN 1 is corrupted.
+Sending NACK for packet with SN:  1
+Packet with SN 2 arrived - <sn2>/start/RG56WRWN/end/
+Packet with SN 2 ignored. Waiting for packet with with SN: 1
+Packet with SN 3 arrived - <sn3>/start/XP3Z573EJ1DF3
+Packet with SN 3 ignored. Waiting for packet with with SN: 1
+Packet with SN 4 arrived - <sn4>Z7L8Y0568MNA3LQ9EEQ4
+Packet with SN 4 ignored. Waiting for packet with with SN: 1
+Packet with SN 1 arrived - <sn1>ZWM8FOKNONLJBI1/end/
+Accepted packet:  <sn1>ZWM8FOKNONLJBI1/end/
+Receved message of length 40 in 2 packet(s).
+Packet with SN 2 arrived - <sn2>/start/RG56WRWN/end/
+Accepted packet:  <sn2>/start/RG56WRWN/end/
+Receved message of length 20 in 1 packet(s).
+Packet with SN 3 arrived - <sn3>/start/XP3Z573EJ1DF3
+Accepted packet:  <sn3>/start/XP3Z573EJ1DF3
+Packet with SN 4 arrived - <sn4>Z7L8Y0568MNA3LQ9EEQ4
+Accepted packet:  <sn4>Z7L8Y0568MNA3LQ9EEQ4
+Packet with SN 5 arrived - <sn5>C9IZF922J1ZRSOQ/end/
+Packet with SN 5 is corrupted.
+Sending NACK for packet with SN:  5
+Packet with SN 6 arrived - <sn6>/start/TRXHI6PL2DCL6
+Packet with SN 6 ignored. Waiting for packet with with SN: 5
+Packet with SN 7 arrived - <sn7>6BZKN884PZ3RCYMKKPX2
+Packet with SN 7 ignored. Waiting for packet with with SN: 5
+Packet with SN 0 arrived - <sn0>4EAR7UCFKY4MCW960VW8
+Packet with SN 0 ignored. Waiting for packet with with SN: 5
+Packet with SN 5 arrived - <sn5>C9IZF922J1ZRSOQ/end/
+Accepted packet:  <sn5>C9IZF922J1ZRSOQ/end/
+Receved message of length 60 in 3 packet(s).
+Packet with SN 6 arrived - <sn6>/start/TRXHI6PL2DCL6
+Accepted packet:  <sn6>/start/TRXHI6PL2DCL6
+Sending ACK for packet with SN:  6
+Packet with SN 7 arrived - <sn7>6BZKN884PZ3RCYMKKPX2
+Accepted packet:  <sn7>6BZKN884PZ3RCYMKKPX2
+Packet with SN 0 arrived - <sn0>4EAR7UCFKY4MCW960VW8
+Accepted packet:  <sn0>4EAR7UCFKY4MCW960VW8
+Packet with SN 1 arrived - <sn1>96HD0QQ5PBFNH89/end/
+Accepted packet:  <sn1>96HD0QQ5PBFNH89/end/
+Receved message of length 80 in 4 packet(s).
+Packet with SN 7 arrived - <sn7>6BZKN884PZ3RCYMKKPX2
+Packet with SN 7 ignored. Waiting for packet with with SN: 2
+Packet with SN 0 arrived - <sn0>4EAR7UCFKY4MCW960VW8
+Packet with SN 0 ignored. Waiting for packet with with SN: 2
+Packet with SN 1 arrived - <sn1>96HD0QQ5PBFNH89/end/
+Packet with SN 1 ignored. Waiting for packet with with SN: 2
+Packet with SN 2 arrived - <sn2>/start/6QQE1UDAFP111
+Accepted packet:  <sn2>/start/6QQE1UDAFP111
+Packet with SN 3 arrived - <sn3>8LEPHWCY9N4O44Y/end/
+Accepted packet:  <sn3>8LEPHWCY9N4O44Y/end/
+Receved message of length 40 in 2 packet(s).
+Packet with SN 4 arrived - <sn4>/start/TKL3UW8IP1LPZ
+Accepted packet:  <sn4>/start/TKL3UW8IP1LPZ
+Packet with SN 5 arrived - <sn5>HTFRFMWM4XR5ZQWUFQPF
+Accepted packet:  <sn5>HTFRFMWM4XR5ZQWUFQPF
+Sending ACK for packet with SN:  5
+Packet with SN 6 arrived - <sn6>JO4Z7RZTKFOZT7WETNOH
+Accepted packet:  <sn6>JO4Z7RZTKFOZT7WETNOH
+Packet with SN 6 arrived - <sn6>JO4Z7RZTKFOZT7WETNOH
+Packet with SN 6 ignored. Waiting for packet with with SN: 7
+Packet with SN 7 arrived - <sn7>747S801HAZ8ALTP/end/
+Packet with SN 7 is corrupted.
+Sending NACK for packet with SN:  7
+Packet with SN 0 arrived - <sn0>/start/EV13E9SXELJGB
+Packet with SN 0 ignored. Waiting for packet with with SN: 7
+Packet with SN 1 arrived - <sn1>UBGUPQL55UZC9T2/end/
+Packet with SN 1 ignored. Waiting for packet with with SN: 7
+Packet with SN 2 arrived - <sn2>/start/W0FZ3XQM8DXZ3
+Packet with SN 2 ignored. Waiting for packet with with SN: 7
+Packet with SN 7 arrived - <sn7>747S801HAZ8ALTP/end/
+Accepted packet:  <sn7>747S801HAZ8ALTP/end/
+Receved message of length 80 in 4 packet(s).
+Packet with SN 0 arrived - <sn0>/start/EV13E9SXELJGB
+Accepted packet:  <sn0>/start/EV13E9SXELJGB
+Packet with SN 1 arrived - <sn1>UBGUPQL55UZC9T2/end/
+Accepted packet:  <sn1>UBGUPQL55UZC9T2/end/
+Receved message of length 40 in 2 packet(s).
+Packet with SN 2 arrived - <sn2>/start/W0FZ3XQM8DXZ3
+Accepted packet:  <sn2>/start/W0FZ3XQM8DXZ3
+Packet with SN 3 arrived - <sn3>TS7899HKA2JFQ27F1UH4
+Accepted packet:  <sn3>TS7899HKA2JFQ27F1UH4
+Packet with SN 4 arrived - <sn4>ZZFSCFVZJYQKYXM/end/
+Accepted packet:  <sn4>ZZFSCFVZJYQKYXM/end/
+Receved message of length 60 in 3 packet(s).
+Sending ACK for packet with SN:  4
+Packet with SN 5 arrived - <sn5>/start/J9OY9TB4ZZB5P
+Accepted packet:  <sn5>/start/J9OY9TB4ZZB5P
+Packet with SN 6 arrived - <sn6>77W8CTH5TETOAMUAUSZ9
+Accepted packet:  <sn6>77W8CTH5TETOAMUAUSZ9
+Packet with SN 5 arrived - <sn5>/start/J9OY9TB4ZZB5P
+Packet with SN 5 ignored. Waiting for packet with with SN: 7
+Packet with SN 6 arrived - <sn6>77W8CTH5TETOAMUAUSZ9
+Packet with SN 6 ignored. Waiting for packet with with SN: 7
+Packet with SN 7 arrived - <sn7>HFPNP5LO3JVI4JLC4QDT
+Packet with SN 7 is corrupted.
+Sending NACK for packet with SN:  7
+Packet with SN 0 arrived - <sn0>PT601CKK1YFAPPQYKCYX
+Packet with SN 0 ignored. Waiting for packet with with SN: 7
+Packet with SN 1 arrived - <sn1>HHQ9ZBJ6QCWY8Q4/end/
+Packet with SN 1 ignored. Waiting for packet with with SN: 7
+Packet with SN 2 arrived - <sn2>/start/BUWK9PFG/end/
+Packet with SN 2 ignored. Waiting for packet with with SN: 7
+Packet with SN 7 arrived - <sn7>HFPNP5LO3JVI4JLC4QDT
+Accepted packet:  <sn7>HFPNP5LO3JVI4JLC4QDT
+Packet with SN 0 arrived - <sn0>PT601CKK1YFAPPQYKCYX
+Packet with SN 0 is corrupted.
+Sending NACK for packet with SN:  0
+Packet with SN 1 arrived - <sn1>HHQ9ZBJ6QCWY8Q4/end/
+Packet with SN 1 ignored. Waiting for packet with with SN: 0
+Packet with SN 2 arrived - <sn2>/start/BUWK9PFG/end/
+Packet with SN 2 ignored. Waiting for packet with with SN: 0
+Packet with SN 3 arrived - <sn3>/start/0FFW39B7/end/
+Packet with SN 3 ignored. Waiting for packet with with SN: 0
+Packet with SN 0 arrived - <sn0>PT601CKK1YFAPPQYKCYX
+Accepted packet:  <sn0>PT601CKK1YFAPPQYKCYX
+Packet with SN 1 arrived - <sn1>HHQ9ZBJ6QCWY8Q4/end/
+Accepted packet:  <sn1>HHQ9ZBJ6QCWY8Q4/end/
+Receved message of length 100 in 5 packet(s).
+Packet with SN 2 arrived - <sn2>/start/BUWK9PFG/end/
+Accepted packet:  <sn2>/start/BUWK9PFG/end/
+Receved message of length 20 in 1 packet(s).
+Packet with SN 3 arrived - <sn3>/start/0FFW39B7/end/
+Accepted packet:  <sn3>/start/0FFW39B7/end/
+Receved message of length 20 in 1 packet(s).
+Sending ACK for packet with SN:  3
+Packet with SN 4 arrived - <sn4>/start/GD893DENU49B7
+Accepted packet:  <sn4>/start/GD893DENU49B7
+Packet with SN 5 arrived - <sn5>BSTFLI50LEAW3YZ4JZFT
+Packet with SN 5 is corrupted.
+Sending NACK for packet with SN:  5
+Packet with SN 6 arrived - <sn6>7C35XJHRIA20OY5/end/
+Packet with SN 6 ignored. Waiting for packet with with SN: 5
+Packet with SN 4 arrived - <sn4>/start/GD893DENU49B7
+Packet with SN 4 ignored. Waiting for packet with with SN: 5
+Packet with SN 5 arrived - <sn5>BSTFLI50LEAW3YZ4JZFT
+Accepted packet:  <sn5>BSTFLI50LEAW3YZ4JZFT
+Packet with SN 6 arrived - <sn6>7C35XJHRIA20OY5/end/
+Accepted packet:  <sn6>7C35XJHRIA20OY5/end/
+Receved message of length 60 in 3 packet(s).
+Packet with SN 7 arrived - <sn7>/start/FDFM3VUJ/end/
+Accepted packet:  <sn7>/start/FDFM3VUJ/end/
+Receved message of length 20 in 1 packet(s).
+Packet with SN 5 arrived - <sn5>BSTFLI50LEAW3YZ4JZFT
+Packet with SN 5 ignored. Waiting for packet with with SN: 0
+Packet with SN 6 arrived - <sn6>7C35XJHRIA20OY5/end/
+Packet with SN 6 ignored. Waiting for packet with with SN: 0
+Packet with SN 7 arrived - <sn7>/start/FDFM3VUJ/end/
+Packet with SN 7 ignored. Waiting for packet with with SN: 0
+Packet with SN 0 arrived - <sn0>/start/03EMF8MCIIJM7
+Accepted packet:  <sn0>/start/03EMF8MCIIJM7
+Packet with SN 1 arrived - <sn1>5OOUKI78Q4F2GC0WHNN0
+Packet with SN 1 is corrupted.
+Sending NACK for packet with SN:  1
+Packet with SN 2 arrived - <sn2>V1RPTSU4GLIBDTT2HKYN
+Packet with SN 2 ignored. Waiting for packet with with SN: 1
+Packet with SN 3 arrived - <sn3>B21YWJOFGBH86A1/end/
+Packet with SN 3 ignored. Waiting for packet with with SN: 1
+Packet with SN 4 arrived - <sn4>/start/1TSSA6MDCT5VJ
+Packet with SN 4 ignored. Waiting for packet with with SN: 1
+Packet with SN 1 arrived - <sn1>5OOUKI78Q4F2GC0WHNN0
+Packet with SN 1 is corrupted.
+Sending NACK for packet with SN:  1
+Packet with SN 2 arrived - <sn2>V1RPTSU4GLIBDTT2HKYN
+Packet with SN 2 ignored. Waiting for packet with with SN: 1
+Packet with SN 3 arrived - <sn3>B21YWJOFGBH86A1/end/
+Packet with SN 3 ignored. Waiting for packet with with SN: 1
+Packet with SN 4 arrived - <sn4>/start/1TSSA6MDCT5VJ
+Packet with SN 4 ignored. Waiting for packet with with SN: 1
+Packet with SN 5 arrived - <sn5>QEP2W9P34ZSBX7S/end/
+Packet with SN 5 ignored. Waiting for packet with with SN: 1
