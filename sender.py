@@ -103,40 +103,32 @@ while True:
     # print 'debug: res', response
 
     if re.match(ack_rgx, response):
-        # If you receive an ACK
+        # If you receive an ACK for the N-1 packet (the whole window that is)
         AckN = int(re.match(ack_rgx, response).group(1))
         print 'Receiver ACKed packet with SN: %s.' % AckN
+        if AckN != N-1:
+            raise Exception('Ack was received for a non-endng packet.',AckN);
+        ackPacketsUpto(AckN)
 
-        Sm = (Sm + AckN + 1 - Sb) % N
-        Sb = (AckN + 1) % N
+        Sm = N - 1
+        Sb = 0
         Sn = Sb
         needle = 0
-        ackPacketsUpto(AckN)
         response = ''
 
     elif re.match(nack_rgx, response):
         # If you receive an NACK
         NackN = int(re.match(nack_rgx, response).group(1))
         print 'Receiver NACKed packet with SN %s.' % NackN
-
-        if NackN != Sb:
-            # ignore the nack if it's for the packet
-            # with SN that is already == Base SN
-            Sm = (Sm + NackN - Sb) % N
-            Sb = NackN
-            Sn = Sb
-            needle = 0
-            ackPacketsUpto((NackN - 1) % N)
-        else:
-            # if base number packet nacked,
-            # resend from base number again
-            needle = 0
+        # resending the NACKed packet
+        print 'resending the NACKed packet'
+        s.send(getPacket(NackN))
         response = ''
 
     if needle < N:
         # transmit packets of window in order - Sb <= Sn <= Sm
         # mimic propagation delay
-        time.sleep(1)
+        time.sleep(.1)
 
         s.send(getPacket(Sn))
         Sn = (Sn + 1) % N
