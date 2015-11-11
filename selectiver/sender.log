@@ -1,0 +1,683 @@
+Message is ready. Size: 80
+Message is broken into 4 packet(s)
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Message is ready. Size: 80
+Message is broken into 4 packet(s)
+Sending packet # 0 - <sn0>/start/OWQQY7CPXUNE3
+Message is ready. Size: 80
+Message is broken into 4 packet(s)
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Sending packet # 1 - <sn1>KELGZ0ZZJRCBRCTYMD4T
+Sending packet # 2 - <sn2>XXQ25MJMWXBO0PBHHTTS
+Sending packet # 3 - <sn3>E5VZIJG7B2V9E6G/end/
+Receiver NACKed packet with SN 0.
+resending the NACKed packet
+Sending packet # 0 - <sn0>/start/OWQQY7CPXUNE3
+Sending packet # 4 - <sn4>/start/FN98EIHVJFLBT
+Sending packet # 5 - <sn5>4R7K5LF2Q7TF60Z/end/
+Sending packet # 6 - <sn6>/start/GL68E2L09Y1RJ
+Sending packet # 7 - <sn7>NXHPF4LVESQ4SO1BIVQW
+Receiver NACKed packet with SN 3.
+resending the NACKed packet
+Sending packet # 3 - <sn3>E5VZIJG7B2V9E6G/end/
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>79BJ5W1HKATQ23QGPT5A
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Sending packet # 1 - <sn1>AODGJNLNAVDJJL1/end/
+Sending packet # 2 - <sn2>/start/YW4CKXTX2DTDD
+Sending packet # 3 - <sn3>6RFRQCOE9SC7KBQQBJF0
+Sending packet # 4 - <sn4>FWBZC5OHWV5CTEZJHEKV
+Sending packet # 5 - <sn5>QMSFO81GM2WZDVJ/end/
+Sending packet # 6 - <sn6>/start/Q14O9GDNVD5C4
+Sending packet # 7 - <sn7>ZPKWD56FTOEIH69/end/
+Receiver NACKed packet with SN 4.
+resending the NACKed packet
+Sending packet # 4 - <sn4>FWBZC5OHWV5CTEZJHEKV
+Receiver NACKed packet with SN 6.
+resending the NACKed packet
+Sending packet # 6 - <sn6>/start/Q14O9GDNVD5C4
+Receiver NACKed packet with SN 7.
+resending the NACKed packet
+Sending packet # 7 - <sn7>ZPKWD56FTOEIH69/end/
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>/start/49ZPHD2RL7V3A
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Message is ready. Size: 80
+Message is broken into 4 packet(s)
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Sending packet # 1 - <sn1>8Z4RN99G33WCWAH2GCBA
+Sending packet # 2 - <sn2>48TDWWZNBYX7YNX/end/
+Sending packet # 3 - <sn3>/start/JW1SHRYNGB1R0
+Sending packet # 4 - <sn4>98TN36IWIX34U30LHHCS
+Sending packet # 5 - <sn5>A12R0QVSER25EWD6ZOOK
+Sending packet # 6 - <sn6>Z43X3V7J16129O89OK1A
+Sending packet # 7 - <sn7>LNJFHYAJQW6T18A/end/
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>/start/PBUO8P13K8KGT
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Sending packet # 1 - <sn1>81M5PVYBHI60Q5AFP7J4
+Sending packet # 2 - <sn2>YKEDCZCR1RZIDZA/end/
+Sending packet # 3 - <sn3>/start/JJFT0U94B3ZQJ
+Sending packet # 4 - <sn4>ZX2OSDO8UEUR5SCMUEDM
+Receiver NACKed packet with SN 1.
+resending the NACKed packet
+Sending packet # 1 - <sn1>81M5PVYBHI60Q5AFP7J4
+Sending packet # 5 - <sn5>WGSG6PSNKDUSZUIWXO26
+Sending packet # 6 - <sn6>3AUBO39TTK7LAKL/end/
+Sending packet # 7 - <sn7>/start/A97BXHFO/end/
+Receiver NACKed packet with SN 7.
+resending the NACKed packet
+Sending packet # 7 - <sn7>/start/A97BXHFO/end/
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>/start/ZJL7H0PK/end/
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Sending packet # 1 - <sn1>/start/WMNCF18Q/end/
+Sending packet # 2 - <sn2>/start/TJADRM5JFWDCV
+Sending packet # 3 - <sn3>YABUBOX76PYKXXL/end/
+Sending packet # 4 - <sn4>/start/XVY0IDUR/end/
+Receiver NACKed packet with SN 1.
+resending the NACKed packet
+Sending packet # 1 - <sn1>/start/WMNCF18Q/end/
+Sending packet # 5 - <sn5>/start/YZW9GTP5BW3CN
+Sending packet # 6 - <sn6>X0N5SKR04XCP2QJTGLVB
+Sending packet # 7 - <sn7>OYUU9C8C93MAJMX/end/
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>/start/38KGM2LB8X8BF
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Sending packet # 1 - <sn1>OCY0O47IW6ZKJPT/end/
+Sending packet # 2 - <sn2>/start/X81LE0GYIYLUE
+Sending packet # 3 - <sn3>T3Y74JX9P6FNS7UAUMHM
+Sending packet # 4 - <sn4>LZ79BYIC3U5BOSTUKY0O
+Sending packet # 5 - <sn5>8B5KJNJB3OGIF8OB79KH
+Sending packet # 6 - <sn6>T4R8MN7IMXVELKK/end/
+Sending packet # 7 - <sn7>/start/L02CS4XFKQH2Q
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>P50MZFYU62K4WRT/end/
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 80
+Message is broken into 4 packet(s)
+Sending packet # 1 - <sn1>/start/B851ZTFF327FN
+Sending packet # 2 - <sn2>VL5OH138QQALRRKPRIVW
+Sending packet # 3 - <sn3>10V1Y0HHYJ3VWAC9GWRY
+Sending packet # 4 - <sn4>RA7RFLXCB08NXAVOGLDA
+Sending packet # 5 - <sn5>0PB7DHK4SGOT1RJ/end/
+Sending packet # 6 - <sn6>/start/9C9DC3DD5F4VI
+Sending packet # 7 - <sn7>0CKJB4DZFDWTVN9KST3W
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>W8B9MF8K7C214GXOWJKG
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Message is ready. Size: 80
+Message is broken into 4 packet(s)
+Sending packet # 1 - <sn1>EY8DAT182D2Q67PWDCZT
+Sending packet # 2 - <sn2>W185FAXWF09ASFA/end/
+Sending packet # 3 - <sn3>/start/6A3BA7DW/end/
+Receiver NACKed packet with SN 0.
+resending the NACKed packet
+Sending packet # 0 - <sn0>W8B9MF8K7C214GXOWJKG
+Sending packet # 4 - <sn4>/start/8OT9JH38KYL5O
+Sending packet # 5 - <sn5>C7HQEZQEWACFRF46S7R5
+Sending packet # 6 - <sn6>L2GI0I1X2IKHPAYZDKAC
+Sending packet # 7 - <sn7>DOA7NMU54VQA5F6/end/
+Receiver NACKed packet with SN 3.
+resending the NACKed packet
+Sending packet # 3 - <sn3>/start/6A3BA7DW/end/
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>/start/3DEBQ1JR/end/
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Sending packet # 1 - <sn1>/start/50BBQ5JFCR53Q
+Sending packet # 2 - <sn2>AQH6RQ457FVM21EYGRD7
+Sending packet # 3 - <sn3>I8G88KGN3GI06UL/end/
+Receiver NACKed packet with SN 0.
+resending the NACKed packet
+Sending packet # 0 - <sn0>/start/3DEBQ1JR/end/
+Sending packet # 4 - <sn4>/start/8V34C4I4IYLDX
+Sending packet # 5 - <sn5>QGJNXGLI696VMJY5337H
+Sending packet # 6 - <sn6>JLN610CV7HGJ3RHD78K7
+Sending packet # 7 - <sn7>BD355PHCV21HH7J/end/
+Receiver NACKed packet with SN 4.
+resending the NACKed packet
+Sending packet # 4 - <sn4>/start/8V34C4I4IYLDX
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>/start/8LG6T0UPYSFN2
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Sending packet # 1 - <sn1>8JFTNND7WICTFP12S9U4
+Sending packet # 2 - <sn2>R99F5JEXQUW0XGIJSKGM
+Sending packet # 3 - <sn3>ERK9D5S38EO53R5ZAXYE
+Sending packet # 4 - <sn4>UHWXKXADOXWSKA5/end/
+Sending packet # 5 - <sn5>/start/UYB36A41/end/
+Receiver NACKed packet with SN 2.
+resending the NACKed packet
+Sending packet # 2 - <sn2>R99F5JEXQUW0XGIJSKGM
+Sending packet # 6 - <sn6>/start/NY7S1I5T3F3N1
+Sending packet # 7 - <sn7>H8WO72OFFCP09P9/end/
+Receiver NACKed packet with SN 6.
+resending the NACKed packet
+Sending packet # 6 - <sn6>/start/NY7S1I5T3F3N1
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>/start/MB6RH8YQ/end/
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Sending packet # 1 - <sn1>/start/47NM2L1EJJBKW
+Sending packet # 2 - <sn2>JHW45PCLYGKX946TISDY
+Sending packet # 3 - <sn3>XBSTNZYGXHZ9A9G2CHRZ
+Sending packet # 4 - <sn4>XO7OUDSKG211YQK8JMKB
+Sending packet # 5 - <sn5>SJUWVG0WBXEHGUV/end/
+Receiver NACKed packet with SN 2.
+resending the NACKed packet
+Sending packet # 2 - <sn2>JHW45PCLYGKX946TISDY
+Sending packet # 6 - <sn6>/start/4Z0UI0DU21U0D
+Sending packet # 7 - <sn7>LNIPUZQ35KYXFDPGJIT4
+Receiver NACKed packet with SN 7.
+resending the NACKed packet
+Sending packet # 7 - <sn7>LNIPUZQ35KYXFDPGJIT4
+Receiver NACKed packet with SN 7.
+resending the NACKed packet
+Sending packet # 7 - <sn7>LNIPUZQ35KYXFDPGJIT4
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>646ENLFPQX8TZ806CX9M
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Sending packet # 1 - <sn1>RUOIA7XE0G8EUEC793MS
+Sending packet # 2 - <sn2>QPFTPO0D3DF1O5X/end/
+Sending packet # 3 - <sn3>/start/5UBK1CPC9DT4P
+Sending packet # 4 - <sn4>I4CG6YJSIQLJST22E8QZ
+Sending packet # 5 - <sn5>9A9HN1BJ66MEY4TTK9GT
+Sending packet # 6 - <sn6>SY8VLV02NA82KISF8AGI
+Sending packet # 7 - <sn7>JO1L5XZNV9FV3VT/end/
+Receiver NACKed packet with SN 7.
+resending the NACKed packet
+Sending packet # 7 - <sn7>JO1L5XZNV9FV3VT/end/
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>/start/67U6WLKX/end/
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Sending packet # 1 - <sn1>/start/2GT40KZY/end/
+Sending packet # 2 - <sn2>/start/XPLGSYXKXX8JB
+Sending packet # 3 - <sn3>F9WMENDCHDVRZZFEQHFZ
+Sending packet # 4 - <sn4>JOT8LJPCR5W7HNPY5PU2
+Sending packet # 5 - <sn5>FHJQCTH022DLKVX7I9VI
+Sending packet # 6 - <sn6>9QDXWPVO075PDJN/end/
+Receiver NACKed packet with SN 3.
+resending the NACKed packet
+Sending packet # 3 - <sn3>F9WMENDCHDVRZZFEQHFZ
+Sending packet # 7 - <sn7>/start/K5Q3HK8XKHVAR
+Receiver NACKed packet with SN 5.
+resending the NACKed packet
+Sending packet # 5 - <sn5>FHJQCTH022DLKVX7I9VI
+Receiver NACKed packet with SN 5.
+resending the NACKed packet
+Sending packet # 5 - <sn5>FHJQCTH022DLKVX7I9VI
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>J70GL2KQ6ZRXJXI/end/
+Message is ready. Size: 80
+Message is broken into 4 packet(s)
+Message is ready. Size: 80
+Message is broken into 4 packet(s)
+Sending packet # 1 - <sn1>/start/83VY8P45D4ONR
+Sending packet # 2 - <sn2>KSWBMNQ3UW9G5Q4NVGIQ
+Sending packet # 3 - <sn3>DNW5WXTVBLJB8D5/end/
+Sending packet # 4 - <sn4>/start/ZG300R3521YUT
+Receiver NACKed packet with SN 1.
+resending the NACKed packet
+Sending packet # 1 - <sn1>/start/83VY8P45D4ONR
+Sending packet # 5 - <sn5>WTKKE79CP0JV2Y3/end/
+Sending packet # 6 - <sn6>/start/DYEEE09RHM9P6
+Sending packet # 7 - <sn7>FP3T6IXHBU9WXQD66YVO
+Receiver NACKed packet with SN 7.
+resending the NACKed packet
+Sending packet # 7 - <sn7>FP3T6IXHBU9WXQD66YVO
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>M5P7UX7T5CT6VN8/end/
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Sending packet # 1 - <sn1>/start/3IN3QRH544HG5
+Sending packet # 2 - <sn2>K728MN3L3HA1UQ0AG06C
+Sending packet # 3 - <sn3>5RYJVH56KM48RD1GF0CM
+Sending packet # 4 - <sn4>3DVISZK9FBZBLWN/end/
+Sending packet # 5 - <sn5>/start/6OP2N6QKX0EZU
+Sending packet # 6 - <sn6>HDYOEHIA2I3NH79JAW08
+Sending packet # 7 - <sn7>SNO37WBRSXQUQWBNDNQL
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>7NCHS0XVZRNCRM2/end/
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Sending packet # 1 - <sn1>/start/IO8SH2WTGTELQ
+Sending packet # 2 - <sn2>CGFIAIKKEUI6NKY/end/
+Sending packet # 3 - <sn3>/start/LRK3JD4AA6Q1J
+Sending packet # 4 - <sn4>S970TY1LRX224UF/end/
+Sending packet # 5 - <sn5>/start/6ITKNOA8RJDUR
+Receiver NACKed packet with SN 2.
+resending the NACKed packet
+Sending packet # 2 - <sn2>CGFIAIKKEUI6NKY/end/
+Sending packet # 6 - <sn6>7VT63QS8EXG0T0YV18Q9
+Sending packet # 7 - <sn7>KMTQEM8C4GVZ77NOA7AQ
+Receiver NACKed packet with SN 3.
+resending the NACKed packet
+Sending packet # 3 - <sn3>/start/LRK3JD4AA6Q1J
+Receiver NACKed packet with SN 5.
+resending the NACKed packet
+Sending packet # 5 - <sn5>/start/6ITKNOA8RJDUR
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>K9HGSR3CJ4WU8HUJMY3L
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Sending packet # 1 - <sn1>4WA8B1SC3A4R4ER/end/
+Sending packet # 2 - <sn2>/start/K6MT5L3SZVOU0
+Sending packet # 3 - <sn3>8JFMFFDU7BFMR39PLKVZ
+Sending packet # 4 - <sn4>0NBUJQJWA76DDYDO8MPS
+Sending packet # 5 - <sn5>Q9VI8I5PHAAVRPOOLFKC
+Sending packet # 6 - <sn6>4AKSRX5S105RM6K/end/
+Sending packet # 7 - <sn7>/start/9VNX42NLRUP9G
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>V7TWS78Z0TI0RBA9PNQP
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Sending packet # 1 - <sn1>0QZKFDYDRDU17HUE09WC
+Sending packet # 2 - <sn2>9AMEW20MY9M395VO8C64
+Sending packet # 3 - <sn3>UHGUEQCFQLNOJHB/end/
+Sending packet # 4 - <sn4>/start/X2P477R1UDQ9E
+Sending packet # 5 - <sn5>3SUTX1RIO7BA659SIYQ5
+Sending packet # 6 - <sn6>I67GVCN7LM8KEJI/end/
+Sending packet # 7 - <sn7>/start/PDRE01UTN1MWA
+Receiver NACKed packet with SN 4.
+resending the NACKed packet
+Sending packet # 4 - <sn4>/start/X2P477R1UDQ9E
+Receiver NACKed packet with SN 5.
+resending the NACKed packet
+Sending packet # 5 - <sn5>3SUTX1RIO7BA659SIYQ5
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>CN3P03EHNLTKYS1/end/
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 80
+Message is broken into 4 packet(s)
+Message is ready. Size: 80
+Message is broken into 4 packet(s)
+Sending packet # 1 - <sn1>/start/BCJYJH4MNG5BY
+Sending packet # 2 - <sn2>G7FNNBUW1X2UAEZ/end/
+Sending packet # 3 - <sn3>/start/ET3BQUAB/end/
+Sending packet # 4 - <sn4>/start/BD3AK9Y4LSU54
+Sending packet # 5 - <sn5>D6JOVV7S1BOZMXU/end/
+Sending packet # 6 - <sn6>/start/ODX5QPOPBVHGG
+Sending packet # 7 - <sn7>UKJPXFYGO06IT6V/end/
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>/start/80JL0BFQSKN47
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Message is ready. Size: 80
+Message is broken into 4 packet(s)
+Sending packet # 1 - <sn1>1TKUQQWS2OLUFTN/end/
+Sending packet # 2 - <sn2>/start/IW61RGUM/end/
+Sending packet # 3 - <sn3>/start/4D4ON0511S5H6
+Sending packet # 4 - <sn4>6BK238A0PYZBTR08M4Y9
+Sending packet # 5 - <sn5>2H763KFT17K3NCSMLUAE
+Sending packet # 6 - <sn6>R706QOI0MUI9K8N/end/
+Receiver NACKed packet with SN 3.
+resending the NACKed packet
+Sending packet # 3 - <sn3>/start/4D4ON0511S5H6
+Sending packet # 7 - <sn7>/start/NRIOG7J7F8XRS
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>OI82IU7D2HRE25ZFK9JD
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Sending packet # 1 - <sn1>7EXUWMEW0ZIQFBOK2A1E
+Sending packet # 2 - <sn2>18XBDIH0FS6RSKA/end/
+Sending packet # 3 - <sn3>/start/IO12PQ9D2WGFR
+Sending packet # 4 - <sn4>NNWB0Y8TTY09P6P/end/
+Sending packet # 5 - <sn5>/start/XO8UH9F4PSB4S
+Sending packet # 6 - <sn6>MSY7696J9QHOKP2WPQDQ
+Receiver NACKed packet with SN 3.
+resending the NACKed packet
+Sending packet # 3 - <sn3>/start/IO12PQ9D2WGFR
+Sending packet # 7 - <sn7>L4CHXGFPCSLV74ES7RPQ
+Receiver NACKed packet with SN 3.
+resending the NACKed packet
+Sending packet # 3 - <sn3>/start/IO12PQ9D2WGFR
+Receiver NACKed packet with SN 7.
+resending the NACKed packet
+Sending packet # 7 - <sn7>L4CHXGFPCSLV74ES7RPQ
+Receiver NACKed packet with SN 7.
+resending the NACKed packet
+Sending packet # 7 - <sn7>L4CHXGFPCSLV74ES7RPQ
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>NUKDL910W84MGME/end/
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Sending packet # 1 - <sn1>/start/GA9NVPQHRPCEZ
+Sending packet # 2 - <sn2>5QAQRF0ZCHVMPGITT3XS
+Sending packet # 3 - <sn3>JIHWGYUD03C7FJDPHW6K
+Sending packet # 4 - <sn4>HR2FSCDXRYFDE8CVDISD
+Receiver NACKed packet with SN 1.
+resending the NACKed packet
+Sending packet # 1 - <sn1>/start/GA9NVPQHRPCEZ
+Sending packet # 5 - <sn5>7YXNR4P1OHU2GWG/end/
+Sending packet # 6 - <sn6>/start/CAQW5NKWZ5U7S
+Sending packet # 7 - <sn7>5M5P824E88HD607HPYPX
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>ZFX0D11XO6DUMHDLCG0U
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Sending packet # 1 - <sn1>LGHJNTSKBAXIXKI8Y9ZI
+Sending packet # 2 - <sn2>LMWJ5A339E5CLGC/end/
+Sending packet # 3 - <sn3>/start/9K1XCWS3B8WBN
+Receiver NACKed packet with SN 0.
+resending the NACKed packet
+Sending packet # 0 - <sn0>ZFX0D11XO6DUMHDLCG0U
+Sending packet # 4 - <sn4>LI5BH29QFSSVKL2/end/
+Sending packet # 5 - <sn5>/start/JM1IJ3C6BWPB7
+Sending packet # 6 - <sn6>2MGD12A8Y667OLZJAN9T
+Sending packet # 7 - <sn7>UOO6DR6YL88CHY1QRV4K
+Receiver NACKed packet with SN 4.
+resending the NACKed packet
+Sending packet # 4 - <sn4>LI5BH29QFSSVKL2/end/
+Receiver NACKed packet with SN 6.
+resending the NACKed packet
+Sending packet # 6 - <sn6>2MGD12A8Y667OLZJAN9T
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>LI8MPV5LENWRDFR32H3Z
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Sending packet # 1 - <sn1>OIX7YAZMZKRJMYY/end/
+Sending packet # 2 - <sn2>/start/6A3O10XSNIERU
+Sending packet # 3 - <sn3>2F95K5TVXPQQ60550W98
+Sending packet # 4 - <sn4>0HJ2JT0RUQA0WZ9UP241
+Sending packet # 5 - <sn5>7JVEQYFPMDYMFPNH5US8
+Sending packet # 6 - <sn6>PSSN6WI5WQVO6L1/end/
+Sending packet # 7 - <sn7>/start/5VT1LHBTKZS8I
+Receiver NACKed packet with SN 5.
+resending the NACKed packet
+Sending packet # 5 - <sn5>7JVEQYFPMDYMFPNH5US8
+Receiver NACKed packet with SN 7.
+resending the NACKed packet
+Sending packet # 7 - <sn7>/start/5VT1LHBTKZS8I
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>FJ1M0ES6AVGWUTDXUBEA
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Message is ready. Size: 80
+Message is broken into 4 packet(s)
+Sending packet # 1 - <sn1>FJG9XP8K7KEJB4D/end/
+Sending packet # 2 - <sn2>/start/HKFIP3FT/end/
+Sending packet # 3 - <sn3>/start/Z2RDCQD2RVZ91
+Sending packet # 4 - <sn4>Q53F55QBQW1W5P7S8JRY
+Sending packet # 5 - <sn5>3EGEFWD942WQNAB/end/
+Sending packet # 6 - <sn6>/start/LIHTUXKVC4NVX
+Sending packet # 7 - <sn7>RXV0YVI17PZ0XR0Y9KLB
+Receiver NACKed packet with SN 7.
+resending the NACKed packet
+Sending packet # 7 - <sn7>RXV0YVI17PZ0XR0Y9KLB
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>BX4GNRBERCHSYKN/end/
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Sending packet # 1 - <sn1>/start/UWLGWDOW3Z6WA
+Sending packet # 2 - <sn2>CHQCGMJD1AQHCJQOYL7W
+Sending packet # 3 - <sn3>87RX68D41X9N2LJ/end/
+Receiver NACKed packet with SN 0.
+resending the NACKed packet
+Sending packet # 0 - <sn0>BX4GNRBERCHSYKN/end/
+Sending packet # 4 - <sn4>/start/G807KZ0B7LI8L
+Sending packet # 5 - <sn5>E649CIPUZYJGK4555IBR
+Sending packet # 6 - <sn6>GEFMV9CRE4LZ7A8/end/
+Sending packet # 7 - <sn7>/start/UL0OBCGXJLIEO
+Receiver NACKed packet with SN 5.
+resending the NACKed packet
+Sending packet # 5 - <sn5>E649CIPUZYJGK4555IBR
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>I3M1TGT3AQLJECB5TM7C
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Sending packet # 1 - <sn1>O57LJM0LCWBLK18Z0ZCH
+Sending packet # 2 - <sn2>ICBZ3L8SX7P13TC/end/
+Sending packet # 3 - <sn3>/start/D600O2QXGL8I1
+Sending packet # 4 - <sn4>Q37VO7OG6YCQOZ2LX89G
+Sending packet # 5 - <sn5>NHGA0OF84ZF5N9RQBY3O
+Sending packet # 6 - <sn6>KHB0EHZ0GWBW5T8WRTMB
+Sending packet # 7 - <sn7>BUV35V83IKENYFC/end/
+Receiver NACKed packet with SN 5.
+resending the NACKed packet
+Sending packet # 5 - <sn5>NHGA0OF84ZF5N9RQBY3O
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>/start/SH6195B9/end/
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Sending packet # 1 - <sn1>/start/LFDSF4KVI1XHB
+Sending packet # 2 - <sn2>W54IQR1HQZIM097NI94E
+Sending packet # 3 - <sn3>OVSVRKQN5BZIN9D/end/
+Sending packet # 4 - <sn4>/start/V9A5HWSWJ0KVM
+Receiver NACKed packet with SN 1.
+resending the NACKed packet
+Sending packet # 1 - <sn1>/start/LFDSF4KVI1XHB
+Sending packet # 5 - <sn5>RX1CXBB6C1ZARZU/end/
+Sending packet # 6 - <sn6>/start/I82EWTWU/end/
+Sending packet # 7 - <sn7>/start/SZAZ1ZY9MATKT
+Receiver NACKed packet with SN 1.
+resending the NACKed packet
+Sending packet # 1 - <sn1>/start/LFDSF4KVI1XHB
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>6V9PGPNURXWSOP3VVO14
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Sending packet # 1 - <sn1>NI3TFEXZSHNRZLHFD6J7
+Sending packet # 2 - <sn2>SOXMH2QN4V166WX25ZCO
+Sending packet # 3 - <sn3>THXV00R5BFUI1RL/end/
+Sending packet # 4 - <sn4>/start/SVC8PS375ZF8R
+Sending packet # 5 - <sn5>JA3IYKRVWPC4S65/end/
+Sending packet # 6 - <sn6>/start/6NNGB3ST/end/
+Sending packet # 7 - <sn7>/start/8FY1UI0OP0SNH
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>IHQ37SJ4PQKIWHIZONN0
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Sending packet # 1 - <sn1>TGVRSMMLTA5RDRR/end/
+Sending packet # 2 - <sn2>/start/8GI8Q0TQ08KVO
+Sending packet # 3 - <sn3>C0PN496SZSKXXW25XM0C
+Sending packet # 4 - <sn4>UVQJNVKBR3K9LGQ77PNI
+Sending packet # 5 - <sn5>U6MGZEFTLA7S45BVZSY4
+Sending packet # 6 - <sn6>4ZPYND1GK3G6C7I/end/
+Sending packet # 7 - <sn7>/start/I8B2N2VQWKBHF
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>59PYRQKXA0KJHGRNENSZ
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Message is ready. Size: 80
+Message is broken into 4 packet(s)
+Message is ready. Size: 80
+Message is broken into 4 packet(s)
+Sending packet # 1 - <sn1>1NFNK3HWS9W7Y3H/end/
+Sending packet # 2 - <sn2>/start/6NEW6HYW/end/
+Sending packet # 3 - <sn3>/start/MQXCJ6IG/end/
+Sending packet # 4 - <sn4>/start/7R2RFE0DX4G5B
+Receiver NACKed packet with SN 1.
+resending the NACKed packet
+Sending packet # 1 - <sn1>1NFNK3HWS9W7Y3H/end/
+Sending packet # 5 - <sn5>RO7IW9YH3YGGIHC/end/
+Sending packet # 6 - <sn6>/start/DYE8C4XQ3KI0C
+Sending packet # 7 - <sn7>O2TXG9DXNA2JJTM/end/
+Receiver NACKed packet with SN 6.
+resending the NACKed packet
+Sending packet # 6 - <sn6>/start/DYE8C4XQ3KI0C
+Receiver NACKed packet with SN 6.
+resending the NACKed packet
+Sending packet # 6 - <sn6>/start/DYE8C4XQ3KI0C
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>/start/1IKJ4YJDNYDSB
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Sending packet # 1 - <sn1>HM1VO7U7QROZ3SC7JT1N
+Sending packet # 2 - <sn2>FB9BSRSSVM1YDWD/end/
+Sending packet # 3 - <sn3>/start/E3DPGXI87OSJP
+Sending packet # 4 - <sn4>GGQQDXSS7BT1P2WXAJML
+Sending packet # 5 - <sn5>6YN2AZ3Q7AQ3KZSQ7I5V
+Sending packet # 6 - <sn6>655389ECMBCSRQO/end/
+Sending packet # 7 - <sn7>/start/R7M07IG1ZP37F
+Receiver NACKed packet with SN 7.
+resending the NACKed packet
+Sending packet # 7 - <sn7>/start/R7M07IG1ZP37F
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>V4THV96OFMJUUF25HVEN
+Message is ready. Size: 40
+Message is broken into 2 packet(s)
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Sending packet # 1 - <sn1>3AGBTR6HXSHKHDEGNI0C
+Sending packet # 2 - <sn2>SISFCYWR3OJB9T1/end/
+Sending packet # 3 - <sn3>/start/YFUC0WNML2Z7F
+Receiver NACKed packet with SN 0.
+resending the NACKed packet
+Sending packet # 0 - <sn0>V4THV96OFMJUUF25HVEN
+Sending packet # 4 - <sn4>4IOV6HBMD5FDBJLVF37P
+Sending packet # 5 - <sn5>3LJ55NV810FC987/end/
+Sending packet # 6 - <sn6>/start/NU4LAU19UR52Y
+Sending packet # 7 - <sn7>BCBIMEWA9TCB6F1CCLZ7
+Receiver NACKed packet with SN 4.
+resending the NACKed packet
+Sending packet # 4 - <sn4>4IOV6HBMD5FDBJLVF37P
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>8CH5I3WAVZG1WLH24MIT
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Message is ready. Size: 80
+Message is broken into 4 packet(s)
+Sending packet # 1 - <sn1>G5TAZTYU652OWBOD5V5X
+Sending packet # 2 - <sn2>XUL0F5U3MIEOMOL/end/
+Sending packet # 3 - <sn3>/start/7L7OV29J0N92Z
+Receiver NACKed packet with SN 0.
+resending the NACKed packet
+Sending packet # 0 - <sn0>8CH5I3WAVZG1WLH24MIT
+Sending packet # 4 - <sn4>AZFPCBM0H6G8GAH/end/
+Sending packet # 5 - <sn5>/start/K1M8NC9C/end/
+Sending packet # 6 - <sn6>/start/MMQ1KDHI/end/
+Sending packet # 7 - <sn7>/start/3H5BUM1B/end/
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>/start/3EK5T4S6IYHBJ
+Message is ready. Size: 100
+Message is broken into 5 packet(s)
+Message is ready. Size: 20
+Message is broken into 1 packet(s)
+Sending packet # 1 - <sn1>1EYN0B5DTA42KEEZSYRX
+Sending packet # 2 - <sn2>G0DN0ZAM6HUL459I0BEW
+Sending packet # 3 - <sn3>F39WYT9R9LTROTM1XNS1
+Receiver NACKed packet with SN 0.
+resending the NACKed packet
+Sending packet # 0 - <sn0>/start/3EK5T4S6IYHBJ
+Sending packet # 4 - <sn4>3C6UFTG71DHQQPG/end/
+Sending packet # 5 - <sn5>/start/ZR0DWGKF/end/
+Sending packet # 6 - <sn6>/start/ZEFJQ6ECZQIGP
+Sending packet # 7 - <sn7>XOR3AXU2V64ZELI8ABFH
+Receiver NACKed packet with SN 3.
+resending the NACKed packet
+Sending packet # 3 - <sn3>F39WYT9R9LTROTM1XNS1
+Receiver ACKed packet with SN: 7.
+Sending packet # 0 - <sn0>IO7DOHH7N7K4AF911W82
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Message is ready. Size: 80
+Message is broken into 4 packet(s)
+Message is ready. Size: 60
+Message is broken into 3 packet(s)
+Sending packet # 1 - <sn1>8M83RPLS76YKNHE/end/
